@@ -1,0 +1,103 @@
+/* ----------------- GLOBAL RESET -----------------  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #011d32;
+  color: #fff;
+  padding: 2px;
+}
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+label,
+input,
+button {
+  font: inherit;
+}
+/* STYLES */
+.form-container {
+  padding: 1rem 1rem 1rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: 0 auto;
+  max-width: 500px;
+  width: 90%;
+  min-height: 800px;
+  box-shadow: 2px 2px 50px #022f52;
+}
+.form-logo {
+  width: 100%;
+  width: 7rem;
+  border-radius: 50%;
+  mix-blend-mode: lighten;
+}
+.form-title {
+  text-align: center;
+  background: linear-gradient(
+    40deg,
+    #fc72ff,
+    #8f68ff,
+    #487bff,
+    #8f68ff,
+    #fc72ff
+  );
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.auth-tab {
+  display: flex;
+  background: #ffffff0d;
+  border: 1px solid #ffffff1a;
+  border-radius: 50px;
+  padding: 5px;
+  margin-bottom: 1rem;
+  /* gap: 1rem; */
+}
+
+.btn {
+  border: none;
+  border-radius: 50px;
+  padding: 1rem 2rem;
+  background-color: #3c096c;
+  background: linear-gradient(to bottom, #3c096c, #570e9b, #6910bd);
+  color: #fff;
+  cursor: pointer;
+}
+#sign-up {
+  background: transparent;
+}
+/* form */
+.form {
+  display: grid;
+  gap: 2rem;
+  width: 100%;
+}
+.form-group {
+  display: grid;
+  gap: 0.5rem;
+}
+label {
+  text-transform: uppercase;
+}
+input {
+  padding: 1rem;
+  border-radius: 16px;
+  background-color: #033f6d;
+  border: 1px solid #ffffff4b;
+}
+.home {
+  color: #8a6ba7;
+}
