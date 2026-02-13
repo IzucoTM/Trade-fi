@@ -108,6 +108,9 @@ span {
   background-color: #011d32;
   margin-bottom: 1rem;
   border-bottom: 1px solid #ffffff2c;
+  position: sticky;
+  top: 0;
+  z-index: 1;
 }
 .nav-container {
   display: flex;
